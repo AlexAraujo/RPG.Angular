@@ -44,6 +44,24 @@
       "raca": "Humano",
       "data": "2021-08-29T18:31:09.947Z",
       "id": 5
+    },
+    {
+      "nome": "Julia",
+      "apelido": "Hopezinha",
+      "idade": "17",
+      "classe": "Elfo",
+      "raca": "humano",
+      "data": "2021-08-29T19:49:19.417Z",
+      "id": 6
+    },
+    {
+      "nome": "Junior",
+      "apelido": "Juvenil",
+      "idade": "13",
+      "classe": "Guerreiro",
+      "raca": "Humano",
+      "data": "2021-08-29T20:26:28.492Z",
+      "id": 7
     }
   ]
 }

@@ -1,13 +1,25 @@
+<section class="container">
+  <h2 class="titulo">Personagens Cadastrados</h2>
+  <table class="tabela">
+    <thead class="tabela__cabecalho">
+      <th class="tabela__cabecalho">Nome</th>
+      <th class="tabela__cabecalho">Apelido</th>
+      <th class="tabela__cabecalho">Idade</th>
+      <th class="tabela__cabecalho">Classe</th>
+      <th class="tabela__cabecalho">Raça</th>
+    </thead>
+    <tbody class="tabela" *ngIf="!!cadastrados; else listaVazia">
+      <tr class="tabela__linha" *ngFor="let cadastro of cadastrados">
+        <td class="tabela__conteudo">{{ cadastro.nome}}</td>
+        <td class="tabela__conteudo">{{ cadastro.apelido}}</td>
+        <td class="tabela__conteudo">{{ cadastro.idade}}</td>
+        <td class="tabela__conteudo">{{ cadastro.classe}}</td>
+        <td class="tabela__conteudo">{{ cadastro.raca}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <ng-template #listaVazia>
+    <p>Nenhum Personagem cadastrado</p>
+  </ng-template>
 
-<tbody *ngIf="!!cadastrados; else listaVazia">
-  <tr *ngFor="let cadastro of cadastrados">
-    <td>{{ cadastro.nome}}</td>
-    <td>{{ cadastro.apelido}}</td>
-    <td>{{ cadastro.idade}}</td>
-    <td>{{ cadastro.classe}}</td>
-    <td>{{ cadastro.raca}}</td>
-  </tr>
-</tbody>
-<ng-template #listaVazia>
-  <p>Nenhum Personagem cadastrado</p>
-</ng-template>
+</section>
