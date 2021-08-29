@@ -1,0 +1,13 @@
+
+<tbody *ngIf="!!cadastrados; else listaVazia">
+  <tr *ngFor="let cadastro of cadastrados">
+    <td>{{ cadastro.nome}}</td>
+    <td>{{ cadastro.apelido}}</td>
+    <td>{{ cadastro.idade}}</td>
+    <td>{{ cadastro.classe}}</td>
+    <td>{{ cadastro.raca}}</td>
+  </tr>
+</tbody>
+<ng-template #listaVazia>
+  <p>Nenhum Personagem cadastrado</p>
+</ng-template>

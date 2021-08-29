@@ -1,0 +1,49 @@
+{
+  "Cadastros": [
+    {
+      "id": 1,
+      "nome": "Lexs",
+      "apelido": "Luterano",
+      "idade": 25,
+      "classe": "guerreiro",
+      "raca": "humano",
+      "data": "2021-11-04T21:24:10.710Z"
+    },
+    {
+      "nome": "martelo",
+      "apelido": "cavalo",
+      "idade": "12",
+      "classe": "Arqueiro",
+      "raca": "Elfo",
+      "data": "2021-08-29T17:42:36.613Z",
+      "id": 2
+    },
+    {
+      "nome": "lucas",
+      "apelido": "Luchas",
+      "idade": "43",
+      "classe": "Mago",
+      "raca": "Gnomo",
+      "data": "2021-08-29T17:46:27.892Z",
+      "id": 3
+    },
+    {
+      "nome": "fernadno",
+      "apelido": "Jurinto",
+      "idade": "24",
+      "classe": "Guerreiro",
+      "raca": "Humano",
+      "data": "2021-08-29T17:48:14.838Z",
+      "id": 4
+    },
+    {
+      "nome": "marcio",
+      "apelido": "Marreta",
+      "idade": "23",
+      "classe": "Guerreiro",
+      "raca": "Humano",
+      "data": "2021-08-29T18:31:09.947Z",
+      "id": 5
+    }
+  ]
+}
